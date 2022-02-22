@@ -49,8 +49,9 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   padding-right: 20px;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .fixed-btn {
