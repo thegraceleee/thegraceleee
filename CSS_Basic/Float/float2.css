@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.02rem;
+}
+
+.total {
+  background-color: #fff;
+}
+
+.contents {
+  display: block;
+  margin-left: 20px;
+  float: left;
+  font-weight: 400;
+}
+
+img {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1f2d3d;
+}
+
+.type {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #afb3b9;
+}
+
+.content {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #79818b;
+  margin-right: 20px;
+}
+
+.contents ::after {
+  content: "";
+  display: block;
+  clear: left;
+}

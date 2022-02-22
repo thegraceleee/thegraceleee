@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e5e5e5;
+}
+
+img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  display: block;
+  margin-right: 12px;
+  /* position: relative; */
+}
+
+.user-photo {
+  float: left;
+  position: relative;
+}
+
+h1 {
+  position: relative;
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  float: left;
+}
+
+.user-card {
+  border: 1px solid #e5eaef;
+  border-radius: 4px;
+  background-color: #fff;
+  max-width: 240px;
+  height: 56px;
+}
+
+.user-status {
+  background-color: #21d891;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.user-card ::after {
+  content: "";
+  display: block;
+  clear: left;
+}
